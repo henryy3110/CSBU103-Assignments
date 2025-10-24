@@ -1,16 +1,97 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
-</head>
-<body>
-<p class="p1">nano Week2/CV/cv.html</p>
-</body>
+<!DOCTYPE html>
+  <!--DOCTYPE: khai báo chuẩn HTML5, giúp trình duyệt render theo chuẩn.-->
+<html lang="en">
+   <!--lang="en": thuộc tính xác định ngôn ngữ chính của trang-->
+  <head>
+    <meta charset="UTF-8">
+    <!--khai báo mã hóa kí tự cho web để không bị lỗi font-->
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <!--hiển thị vừa vặn với kích thước màn hình-->
+    <meta name="author" content="Henry Sen">
+    <!-- author: Khai báo tên tác giả trang -->
+    <meta name="description" content="Curriculum Vitae">
+    <!-- description: Mô tả nội dung trang, quan trọng cho SEO -->
+    <title>CV SINH VIEN</title>
+    <!-- title: hiển thị trên tab trình duyệt. -->
+  </head>
+  <body>
+    <!--body: chứa nội dung chính trang, tất cả phần hiển thị sẽ nằm trong đây.-->
+  <header>
+    <!-- <header>: Phần đầu trang, chứa tên và thông tin chính -->
+      <h1>SEN NHAT ANH THU</h1>
+    <!--<h1>: thẻ tiêu đề chính-->
+      <p>Student number: <strong>25560058</strong></p>
+      <!--<p> cho đoạn văn; <strong> để nhấn mạnh thông tin mã sinh viên-->
+        <img src="profile.jpg" alt="Profile picture" width="160" height="160">
+        <!--<img>: hiển thị ảnh; <src>: đường dẫn file ảnh; <alt>: mô tả ảnh; <width/height>: minh họa thuộc tính kích thước-->
+  </header>
+  <hr>
+  <nav>
+    <!-- <nav>: Thanh điều hướng để nhảy đến các phần khác nhau trong trang -->
+    <a href="#profile">Profile</a> |
+    <a href="#education">Education</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#contact">Contact</a>
+    <!-- <a href="#id">: Liên kết đến phần có id tương ứng -->
+  </nav>
+  <!-- <hr>: Kẻ đường 
+   ngang ngăn cách các phần -->
+  <section id="profile">
+    <!-- <section>: Nhóm nội dung theo chủ đề, id giúp điều hướng -->
+    <h2><u>Profile</u></h2>
+    <!-- <h2>: Tiêu đề cấp 2. <u>: Gạch chân -->
+    <p align="justify">
+      <!-- align="justify": Căn đều 2 bên cho đoạn văn -->
+      I am a Computer Science student passionate about Formula 1.
+    </p>
+  </section>
+  <section id="education">
+    <h2><u>Education</u></h2>
+    <table border="1" cellspacing="5" cellpadding="8" width="80%" align="center" bgcolor="#FFFFFF">
+      <!-- <table>: Tạo bảng; border: Độ dày viền; cellspacing: Khoảng cách giữa các ô; cellpadding: Khoảng cách giữa viền và nội dung; width: Chiều rộng; bgcolor: Màu nền bảng -->
+      <tr bgcolor="#e6f2ff">
+        <!-- <tr>: Một hàng trong bảng. bgcolor: màu nền hàng -->
+        <th>Year</th>
+        <th>School</th>
+        <th>Degree</th>
+        <!-- <th>: Ô tiêu đề bảng, chữ tự động in đậm -->
+      </tr>
+      <tr>
+        <td>2025 - Present</td>
+        <td>University of Information Technology</td>
+        <td>Bachelor of Computer Science</td>
+        <!-- <td>: Ô dữ liệu của bảng -->
+      </tr>
+    </table>
+  </section>
+  <section id="skills">
+    <h2><u>Skills</u></h2>
+    <ul>
+      <!-- <ul>: Danh sách không thứ tự -->
+      <li><b>Programming:</b> HTML and CSS</li>
+      <!-- <b>: In đậm tiêu đề -->
+      <li><b>Tools:</b> Git, GitHub, VS Code</li>
+      <li><b>Languages:</b> English, Vietnamese</li>
+  <section id="contact">
+    <h2><u>Contact</u></h2>
+    <address>
+        Email: <a href="mailto:henryy3110@gmail.com">henryy3110@gmail.com</a><br>
+        Phone: <a href="tel:+84966985123">+84966985123</a>
+    </address>
+    <!--Dùng <address> cho thông tin liên hệ chính thức.-->
+  </section>
+    </ul>
+  </section>
+  <footer>
+    <p>Last updated: 2025-10-24</p>
+  </footer>
+  </body>
 </html>
+ 
+
+
+
+
+
+ 
+
